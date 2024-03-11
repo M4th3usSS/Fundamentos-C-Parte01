@@ -1,12 +1,12 @@
 /*
     Autor: Matheus Sousa
-    Objetivo: ResoluÁ„o de exercÌcio:
+    Objetivo: Resolu√ß√£o de exerc√≠cio:
 
-    FaÁa um programa para ler do teclado uma quantidade de segundos e imprimir na tela a convers„o para horas, 
+    Fa√ßa um programa para ler do teclado uma quantidade de segundos e imprimir na tela a convers√£o para horas, 
     minutos e segundos.
     Exemplo:
     Entrada: 3672
-    SaÌda: 1:1:12
+    Sa√≠da: 1:1:12
 */
 
 #include <stdio.h>
@@ -24,7 +24,7 @@ int main() {
     h = segundos / 3600;
     m = segundos % 3600 / 60;
     s = segundos % 3600 % 60;
-    printf("%d:%d:%d",h, m, s);
+    printf("%02d:%02d:%02d",h, m, s);
 
     return 0;
 }
