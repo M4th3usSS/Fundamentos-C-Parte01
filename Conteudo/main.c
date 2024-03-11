@@ -5,14 +5,14 @@
 void aula_03() {
 
     /*
-        Dica: N„o usar a funÁ„o system pause!
+        Dica: N√£o usar a fun√ß√£o system pause!
         
-        A funÁ„o system pause sÛ funciona em sistemas Windows, usar essa funÁ„o nos cÛdigos fonte ir· trazer problemas 
+        A fun√ß√£o system pause s√≥ funciona em sistemas Windows, usar essa fun√ß√£o nos c√≥digos fonte ir√° trazer problemas 
         de incompatibilidade em outros sistemas;
-        Uma forma de contarnar isso È usar recursos da biblioteca padr„o da linguagem C: como a funÁ„o getchar;
+        Uma forma de contornar isso √© usar recursos da biblioteca padr√£o da linguagem C: como a fun√ß√£o getchar;
     */
 
-    printf("\n\tDica: N„o usar system pause!\n\t");
+    printf("\n\tDica: N√£o usar system pause!\n\t");
     printf("\nPressione qualquer tecla para finalizar.");
     getchar();
 }
@@ -20,64 +20,64 @@ void aula_03() {
 void aula_04() {
 
    /*
-        DeclaraÁ„o de vari·veis int e a funÁ„o para entrada de dados scanf
+        Declara√ß√£o de vari√°veis int e a fun√ß√£o para entrada de dados scanf
    */
 
     int valor01;
     int valor02;
 
-    printf("Digite o primeiro n˙mero: ");
-    scanf("%d", &valor01);  // "&" - Usado para referÍnciar o endereÁo de memÛria da vari·vel <valor01>
+    printf("Digite o primeiro n√∫mero: ");
+    scanf("%d", &valor01);  // "&" - Usado para refer√™nciar o endere√ßo de mem√≥ria da vari√°vel <valor01>
                             // "%d" - Placeholder do tipo int;
 
-    printf("Digite o segundo n˙mero: ");
-    scanf("%d", &valor02);  // "&" Usado para referÍnciar o endereÁo de memÛria da vari·vel <valor02>
+    printf("Digite o segundo n√∫mero: ");
+    scanf("%d", &valor02);  // "&" Usado para refer√™nciar o endere√ßo de mem√≥ria da vari√°vel <valor02>
                             // "%d" - Placeholder do tipo int;
 
-    printf("\n\nOs n˙meros digitados foram %d e %d\n\n", valor01, valor02);
+    printf("\n\nOs n√∫meros digitados foram %d e %d\n\n", valor01, valor02);
 }
 
 void aula_05() {
 
     /*
-        DeclaraÁ„o de vari·veis float e a funÁ„o para entrada de dados scanf
+        Declara√ß√£o de vari√°veis float e a fun√ß√£o para entrada de dados scanf
     */
 
     float valor01;
     float valor02;
 
-    printf("Digite o primeiro n˙mero: ");
-    scanf("%f", &valor01); // "&" - Usado para referÍnciar o endereÁo de memÛria da vari·vel <valor01>
+    printf("Digite o primeiro n√∫mero: ");
+    scanf("%f", &valor01); // "&" - Usado para refer√™nciar o endere√ßo de mem√≥ria da vari√°vel <valor01>
                            // "%f" Placeholder do tipo float;
 
-    printf("Digite o segundo n˙mero: ");
-    scanf("%f", &valor02); // "&" - Usado para referÍnciar o endereÁo de memÛria da vari·vel <valor02>
+    printf("Digite o segundo n√∫mero: ");
+    scanf("%f", &valor02); // "&" - Usado para refer√™nciar o endere√ßo de mem√≥ria da vari√°vel <valor02>
                            // "%f" Placeholder do tipo float;
 
-    printf("\n\nOs n˙meros digitados foram %.2f e %.2f\n\n", valor01, valor02);
+    printf("\n\nOs n√∫meros digitados foram %.2f e %.2f\n\n", valor01, valor02);
 }
 
 void aula_06() {
 
     /*
-        DeclaraÁ„o de vari·veis char e a funÁ„o para entrada de dados scanf
+        Declara√ß√£o de vari√°veis char e a fun√ß√£o para entrada de dados scanf
     */
 
     char letra = 'M';
 
-    printf("\nValor da vari·vel letra = %c\n", letra);
+    printf("\nValor da vari√°vel letra = %c\n", letra);
 
     printf("Digite apenas uma letra: ");
-    scanf("%c", &letra); // "&" - Usado para referÍnciar o endereÁo de memÛria da vari·vel <letra>
+    scanf("%c", &letra); // "&" - Usado para refer√™nciar o endere√ßo de mem√≥ria da vari√°vel <letra>
                          // "%c" - Placeholder do tipo char;
 
-    printf("\n\nValor da vari·vel letra = %c\n\n", letra);
+    printf("\n\nValor da vari√°vel letra = %c\n\n", letra);
 }
 
 void aula_07() {
 
     /*
-        Vari·veis char e a funÁ„o de leitura getchar
+        Vari√°veis char e a fun√ß√£o de leitura getchar
     */
 
     char letra;
@@ -92,7 +92,7 @@ void aula_07() {
 void aula_08() {
 
     /*
-        Vari·veis char e a funÁ„o de leitura getc
+        Vari√°veis char e a fun√ß√£o de leitura getc
     */
 
     char letra;
@@ -107,7 +107,7 @@ void aula_08() {
 void aula_09() {
 
     /*
-        Vari·veis char e a funÁ„o de leitura  fgetc
+        Vari√°veis char e a fun√ß√£o de leitura  fgetc
     */
 
     char letra;
@@ -121,24 +121,24 @@ void aula_09() {
 void aula_10() {
 
     /*
-        Lendo m˙ltiplas vari·veis:
+        Lendo m√∫ltiplas vari√°veis:
         
-        No programa vocÍ pode inserir cada vari·vel isoladamente apertando <ENTER> ou inserir todas ao mesmo tempo, 
-        separando seus valores por <ESPA«OS>, mas lembre-se de inserir os valores na ordem correta!
+        No programa voc√™ pode inserir cada vari√°vel isoladamente apertando <ENTER> ou inserir todas ao mesmo tempo, 
+        separando seus valores por <ESPA√áOS>, mas lembre-se de inserir os valores na ordem correta!
     */
 
     int num1, num2, num3;
 
-    printf("Digite trÍs valores inteiros\n");
+    printf("Digite tr√™s valores inteiros\n");
     scanf("%d%d%d", &num1, &num2, &num3);
 
-    printf("\nPrimeiro n˙mero = %d\nSegundo n˙mero = %d\nTerceiro n˙mero = %d\n", num1, num2, num3);
+    printf("\nPrimeiro n√∫mero = %d\nSegundo n√∫mero = %d\nTerceiro n√∫mero = %d\n", num1, num2, num3);
 }
 
 void aula_11() {
 
     /*
-        ExercÌcio 01 - Lendo m˙ltiplas vari·veis de tipos diferentes
+        Exerc√≠cio 01 - Lendo m√∫ltiplas vari√°veis de tipos diferentes
     */
 
     char sexo;
@@ -162,15 +162,15 @@ void aula_12_01() {
     /*
         Problema ao ler caracter com a linguagem C
 
-        O que acontece se lermos o caracter por ˙ltimo ?
+        O que acontece se lermos o caracter por √∫ltimo ?
      
-        Qualquer comando do teclado pode ser representada por um caracter em C (ver tabela ASCII), o prÛprio <Enter> È 
+        Qualquer comando do teclado pode ser representada por um caracter em C (ver tabela ASCII), o pr√≥prio <Enter> √© 
         um caracter e pertence ao CONJUNTO DE CARACTERES DE CONTROLE. Logo, ao pressionar a tecla <Enter>, o carater 
-        de quebra de linha (\n) ser· adicionado ao buffer do teclado. Esse \n no buffer do teclado ser· atribuido a 
-        vari·vel sexo quando a funÁ„o scanf iterar pelo buffer, que por sua vez, possui o \n na fila.
+        de quebra de linha (\n) ser√° adicionado ao buffer do teclado. Esse \n no buffer do teclado ser√° atribuido a 
+        vari√°vel sexo quando a fun√ß√£o scanf iterar pelo buffer, que por sua vez, possui o \n na fila.
      
-        Isso causa estranheza j· que esse comportamento n„o È comum para a maioria das funÁıes de leitura das
-        linguagens de programaÁ„o mais modernas.
+        Isso causa estranheza j√° que esse comportamento n√£o √© comum para a maioria das fun√ß√µes de leitura das
+        linguagens de programa√ß√£o mais modernas.
      
         Tente rodar esse exemplo e veja o problema do qual estamos falando:
     */
@@ -190,9 +190,9 @@ void aula_12_01() {
     printf("\n ======================================\n\n");
 
     /*
-        Perceba que nosso programa pulou a leitura da vari·vel do tipo caracter, isso aconteceu pois quando apertamos
-        <Enter> para confirmar a inserÁ„o da vari·vel anterior, o \n foi inserido no buffer do teclado, esse \n foi
-        inserido em nossa vari·vel do tipo caracter pois o buffer continha esse caracter especial. Mas como resolver 
+        Perceba que nosso programa pulou a leitura da vari√°vel do tipo caracter, isso aconteceu pois quando apertamos
+        <Enter> para confirmar a inser√ß√£o da vari√°vel anterior, o \n foi inserido no buffer do teclado, esse \n foi
+        inserido em nossa vari√°vel do tipo caracter pois o buffer continha esse caracter especial. Mas como resolver 
         isso ?
     */
 }
@@ -202,11 +202,11 @@ void aula_12_02() {
     /*
         Problema ao ler caracter com a linguagem C
 
-        Para solucionar o problema que o caracter \n presente no buffer causou, adicione um espaÁo antes do
-        placeholder de caracter. Esse espaÁo serve como um comando para o compilador descartar o \n (e outros
-        caracteres de controle) que est„o presentes no buffer do teclado;
+        Para solucionar o problema que o caracter \n presente no buffer causou, adicione um espa√ßo antes do
+        placeholder de caracter. Esse espa√ßo serve como um comando para o compilador descartar o \n (e outros
+        caracteres de controle) que est√£o presentes no buffer do teclado;
 
-        Com o buffer limpo, agora nossa lÛgica funciona como esperado:
+        Com o buffer limpo, agora nossa l√≥gica funciona como esperado:
     */
 
     char sexo;
@@ -214,7 +214,7 @@ void aula_12_02() {
     float peso, altura;
 
     printf("Digite sua idade, peso, altura e sexo[F/M] respectivamente:\n");
-    scanf("%d%f%f %c", &idade, &peso, &altura, &sexo); // Adicionamos o espaÁo!
+    scanf("%d%f%f %c", &idade, &peso, &altura, &sexo); // Adicionamos o espa√ßo!
 
     printf("\n\n =============== Dados ================\n\n");
     printf("    Sexo: %c\n", sexo);
@@ -229,8 +229,8 @@ void aula_13() {
     /*
         Lendo dois caracteres consecutivos
 
-        AtenÁ„o ao buffer do teclado!
-        Use espaÁo antes do %c para eliminar caracteres de controle (\n \t <EspaÁos>):
+        Aten√ß√£o ao buffer do teclado!
+        Use espa√ßo antes do %c para eliminar caracteres de controle (\n \t <Espa√ßos>):
     */
 
     char letra_01, letra_02;
@@ -245,8 +245,8 @@ void aula_14() {
     /*
         Lendo dois caracteres consecutivos 
 
-        AtenÁ„o ao buffer do teclado!
-        Use espaÁo antes do %c para eliminar caracteres de controle (\n \t <EspaÁos>):
+        Aten√ß√£o ao buffer do teclado!
+        Use espa√ßo antes do %c para eliminar caracteres de controle (\n \t <Espa√ßos>):
     */
 
     char a, b;
@@ -254,17 +254,17 @@ void aula_14() {
     printf("Digite uma letra: ");
     scanf(" %c", &a);
     printf("Digite outra letra: ");
-    scanf(" %c", &b); // EspaÁo para limpar o \n do buffer!
+    scanf(" %c", &b); // Espa√ßo para limpar o \n do buffer!
 
     printf("\nValor da primeira letra = %c\nValor da segunda letra = %c\n",a, b);
 }
 
 /* Aula 15
     
-    ExplicaÁ„o das unidades de armazenamento:
+    Explica√ß√£o das unidades de armazenamento:
  
-    A palavra bit vem do inglÍs e È uma abreviaÁ„o de binary digit (dÌgito bin·rio).
-    O bit È a menor unidade de armazenamento, suportando um ˙nico dÌgito bin·rio 0 ou 1. Na sequÍncia, temos ‡s 
+    A palavra bit vem do ingl√™s e √© uma abrevia√ß√£o de binary digit (d√≠gito bin√°rio).
+    O bit √© a menor unidade de armazenamento, suportando um √∫nico d√≠gito bin√°rio 0 ou 1. Na sequ√™ncia, temos √†s 
     seguintes unidades:
 
     1 Byte = 8 bits.
@@ -282,7 +282,7 @@ void aula_14() {
 void aula_16() {
 
     /*
-        Como descobrir o tamanho em memÛria de cada tipo de dado ?
+        Como descobrir o tamanho em mem√≥ria de cada tipo de dado ?
         Use o operador sizeof
     */
 
@@ -295,13 +295,13 @@ void aula_16() {
 void aula_17() {
 
     /*
-        Reduzindo o consumo de memÛria com o operador short
+        Reduzindo o consumo de mem√≥ria com o operador short
 
         Operador short para o tipo int: short int
-        Intervalo convencional de um int = -2.147.483.648 atÈ 2.147.483.647 (4 bytes);
-        Intervalo do short int: = -32.768 atÈ 32.767 (2 bytes);
+        Intervalo convencional de um int = -2.147.483.648 at√© 2.147.483.647 (4 bytes);
+        Intervalo do short int: = -32.768 at√© 32.767 (2 bytes);
 
-        OBS.: AtribuiÁ„o de valores fora do range da vari·vel ir· causar falhas de memÛria;
+        OBS.: Atribui√ß√£o de valores fora do range da vari√°vel ir√° causar falhas de mem√≥ria;
         
         Placeholders para short int = %hi ou %d
 
@@ -309,40 +309,40 @@ void aula_17() {
 
     short int x = 32767;
 
-    printf("Quantidade de bytes de uma vari·vel do tipo short int: %d bytes (%d bits)\n", sizeof x, sizeof x * 8);
+    printf("Quantidade de bytes de uma vari√°vel do tipo short int: %d bytes (%d bits)\n", sizeof x, sizeof x * 8);
 
     printf("Valor de x: %d\n", x);
     x++;
-    printf("Valor de (x + 1): %d (Estouro de vari·vel)\n", x); // Exemplo de um estouro de vari·vel
+    printf("Valor de (x + 1): %d (Estouro de vari√°vel)\n", x); // Exemplo de um estouro de vari√°vel
 
 }
 
 void aula_18() {
 
     /*
-        Aula 18 - Somei 2 n˙meros positivos e o resultado ficou negativo
-        Intervalo do int = -2.147.483.648 atÈ 2.147.483.647
+        Aula 18 - Somei 2 n√∫meros positivos e o resultado ficou negativo
+        Intervalo do int = -2.147.483.648 at√© 2.147.483.647
     */
 
     int x = 2147483647;
 
     printf("Valor de x: %d\n", x);
     x++;
-    printf("Valor de (x + 1): %d (Estouro de variavel)\n", x); // Exemplo de um estouro de vari·vel
+    printf("Valor de (x + 1): %d (Estouro de variavel)\n", x); // Exemplo de um estouro de vari√°vel
 
 }
 
 void aula_19() {
 
     /*
-        Aula 19 - Como aumentar o espÁo de memÛria para um int com o operador long ?
+        Aula 19 - Como aumentar o esp√ßo de mem√≥ria para um int com o operador long ?
 
-        O  espaÁo de um long int, assim como dos outros tipos, depende da arquitetura do sistema;
+        O  espa√ßo de um long int, assim como dos outros tipos, depende da arquitetura do sistema;
         No meu computador por exemplo, sizeof int == sizeof long int;
-        Isso acontece porque arquiteturas recentes, como a do meu computador, consideram int com espaÁo de 32 bits;
-        Podemos adicionar mais um long, com isso, aumentar ainda mais o espaÁo em memÛria, dobrando para 64 bits;
+        Isso acontece porque arquiteturas recentes, como a do meu computador, consideram int com espa√ßo de 32 bits;
+        Podemos adicionar mais um long, com isso, aumentar ainda mais o espa√ßo em mem√≥ria, dobrando para 64 bits;
         
-        OBS.: N„o podemos usar o operador short duas vezes!
+        OBS.: N√£o podemos usar o operador short duas vezes!
         
         PlaceHolders para long int %li / %ld
         PlaceHolders para long long int %lli / %lld
@@ -352,50 +352,50 @@ void aula_19() {
     long int x = 2147483647;
     printf("Valor de x: %li\n", x);
     x++;
-    printf("Valor de (x + 1): %ld\n", x); // Houve um estouro de vari·vel pois int e long int possui a mesma quantidade
+    printf("Valor de (x + 1): %ld\n", x); // Houve um estouro de vari√°vel pois int e long int possui a mesma quantidade
                                           // de bytes na arquitetura do meu computador;
 
-    printf("Quantidade de bytes de uma vari·vel do tipo long int: %d bytes (%d bits)\n\n", sizeof x, sizeof x * 8);
+    printf("Quantidade de bytes de uma vari√°vel do tipo long int: %d bytes (%d bits)\n\n", sizeof x, sizeof x * 8);
 
 
     long long int y = 2147483647;
     printf("Valor de y: %lli\n", y);
     y++;
-    printf("Valor de (y + 1): %lld\n", y); // N„o ocorreu estouro de vari·vel pois aumentamos seu tamanho na memÛria,
-                                           // consequentemente tamb·m aumentamos o seu range;
+    printf("Valor de (y + 1): %lld\n", y); // N√£o ocorreu estouro de vari√°vel pois aumentamos seu tamanho na mem√≥ria,
+                                           // consequentemente tamb√°m aumentamos o seu range;
 
-    printf("Quantidade de bytes de uma vari·vel do tipo long long int: %d bytes (%d bits)\n", sizeof y, sizeof y * 8);
+    printf("Quantidade de bytes de uma vari√°vel do tipo long long int: %d bytes (%d bits)\n", sizeof y, sizeof y * 8);
 }
 
 void aula_20() {
 
     /*
-        Tipo primitivo para n˙meros reais - float
+        Tipo primitivo para n√∫meros reais - float
         
         Placeholder do float: %f
     */
 
     float x = 3.1415;
 
-    printf("Imprimindo um n˙mero float: %f\n", x);
-    printf("Um float precisa de %d bytes de memÛria.\n", sizeof x);
-    printf("Um float precisa de %d bytes de memÛria.\n\n", sizeof(float));
+    printf("Imprimindo um n√∫mero float: %f\n", x);
+    printf("Um float precisa de %d bytes de mem√≥ria.\n", sizeof x);
+    printf("Um float precisa de %d bytes de mem√≥ria.\n\n", sizeof(float));
 
 }
 
 void aula_21() {
 
     /*
-        Tipo primitivo para n˙meros reais com dupla precis„o - double
+        Tipo primitivo para n√∫meros reais com dupla precis√£o - double
 
         Placeholder do double: %lf
     */
 
     double x = 3.1415;
 
-    printf("Imprimindo um n˙mero double: %lf\n", x);
-    printf("Um double precisa de %d bytes de memÛria.\n", sizeof x);
-    printf("Um double precisa de %d bytes de memÛria.\n\n", sizeof(double));
+    printf("Imprimindo um n√∫mero double: %lf\n", x);
+    printf("Um double precisa de %d bytes de mem√≥ria.\n", sizeof x);
+    printf("Um double precisa de %d bytes de mem√≥ria.\n\n", sizeof(double));
 
 }
 
@@ -405,32 +405,32 @@ void aula_22() {
         Como usar o operador long para o tipo primitivo double ?
 
         OBS.:
-        Por padr„o, o tipo double e o tipo float imprimem n˙meros com 6 casas decimais;
-        Podemos alterar isso adionando instruÁıes no placeholder de impress„o.
+        Por padr√£o, o tipo double e o tipo float imprimem n√∫meros com 6 casas decimais;
+        Podemos alterar isso adionando instru√ß√µes no placeholder de impress√£o.
 
-        ATEN«√O:
-        Aqui temos uma situaÁ„o interessante que mostra como os compiladores de sistema operacionais distintos
-        tratam os cÛdigos C para gerar os programas execut·veis:
+        ATEN√á√ÉO:
+        Aqui temos uma situa√ß√£o interessante que mostra como os compiladores de sistema operacionais distintos
+        tratam os c√≥digos C para gerar os programas execut√°veis:
        
         Placeholder do double -> %lf (Comum para sistemas Linux e Windows);
         Placeholder do long double -> %Lf (Sistemas Linux)
-        Para imprimir um long double no Windows, devemos usar uma funÁ„o especial:
-        __mingw_prinff(); -> (Devemos usar essa funÁ„o em vez de printf() para sistemas Windows);
+        Para imprimir um long double no Windows, devemos usar uma fun√ß√£o especial:
+        __mingw_prinff(); -> (Devemos usar essa fun√ß√£o em vez de printf() para sistemas Windows);
 
-        Veja a situaÁ„o.:
+        Veja a situa√ß√£o.:
     */
 
     double x = 234.54324235235262;
     long double y = 3.1415926535897932384626433832795;
 
-    printf("Um doble precisa de %d bytes de memÛria (Nessa arquitetura).\n", sizeof x);
-    printf("Um long double precisa de %d bytes de memÛria (Nessa arquitetura).\n", sizeof y);
+    printf("Um doble precisa de %d bytes de mem√≥ria (Nessa arquitetura).\n", sizeof x);
+    printf("Um long double precisa de %d bytes de mem√≥ria (Nessa arquitetura).\n", sizeof y);
     printf("Valor de x (double - comum para Linux e Windows): %.10lf\n", x);
 
     printf("Valor de y (long double - base Linux): %.15Lf\n", y); // Para sistema baseado em Linux (Causa falha de
-                                                                  // impress„o em sistema Windows);
+                                                                  // impress√£o em sistema Windows);
 
-    __mingw_printf("Valor de y (long double - base Windows): %.15Lf\n", y); // Para sistemas Windons (AdaptaÁ„o que 
+    __mingw_printf("Valor de y (long double - base Windows): %.15Lf\n", y); // Para sistemas Windons (Adapta√ß√£o que 
                                                                             // deve ser feita);
 
 }
@@ -441,57 +441,57 @@ void aula_23() {
         Caracteres de escape
 
         Quebra de linha -> \n
-        TabulaÁ„o       -> \t
+        Tabula√ß√£o       -> \t
         Aspa dupla      -> \"
         Aspa simples    -> \'
         Contrabarra     -> \\
     */
 
-    printf("\n\n\tIsto È uma \"mensagem\" a ser \'impressa\' na tela. \\ Contra barra \\\n\n");
+    printf("\n\n\tIsto √© uma \"mensagem\" a ser \'impressa\' na tela. \\ Contra barra \\\n\n");
 
 }
 
 void aula_24() {
 
     /*
-        Operadores matem·ticos
+        Operadores matem√°ticos
 
-        AdiÁ„o              +
-        SubtraÁ„o           -
-        MultiplicaÁ„o       *
-        Divis„o             /
+        Adi√ß√£o              +
+        Subtra√ß√£o           -
+        Multiplica√ß√£o       *
+        Divis√£o             /
     */
 
-    printf("\nAdiÁ„o: %d\n", 10 + 20);
-    printf("\nSubtraÁ„o: %d\n", 10 - 20);
-    printf("\nMultipliÁ„o: %d\n", 10 * 20);
-    printf("\nDivis„o (int): %d\n", 10 / 20);
-    printf("\nDivis„o (fload): %f\n", 10.0 / 20.0);
+    printf("\nAdi√ß√£o: %d\n", 10 + 20);
+    printf("\nSubtra√ß√£o: %d\n", 10 - 20);
+    printf("\nMultipli√ß√£o: %d\n", 10 * 20);
+    printf("\nDivis√£o (int): %d\n", 10 / 20);
+    printf("\nDivis√£o (fload): %f\n", 10.0 / 20.0);
 
 }
 
 void aula_25() {
 
     /*
-        O que significa Casting ou convers„o de tipos na linguagem C?
+        O que significa Casting ou convers√£o de tipos na linguagem C?
 
-        Casting È um processo explicito ou implicito de alterar o tipo de uma vari·vel, um exemplo que precisa de um 
-        casting explicito È a divis„o de dois n˙meros do tipo int. O resultado da divis„o de dois n˙meros inteiros
-        retorna tambÈm um n˙mero inteiro (divis„o inteira). Para divisıes de n˙meros inteiros onde a casa decimal 
-        importa para o programa, deve-se fazer o casting de pelo menos um dos operandos da divis„o. Mas atente-se para
-        o uso de casting, informaÁıes podem ser perdidas nesse processo, como no caso de converter um n˙mero float com
-        casa decimal para um n˙mero int, a parte decimal do n˙mero È perdida!
+        Casting √© um processo explicito ou implicito de alterar o tipo de uma vari√°vel, um exemplo que precisa de um 
+        casting explicito √© a divis√£o de dois n√∫meros do tipo int. O resultado da divis√£o de dois n√∫meros inteiros
+        retorna tamb√©m um n√∫mero inteiro (divis√£o inteira). Para divis√µes de n√∫meros inteiros onde a casa decimal 
+        importa para o programa, deve-se fazer o casting de pelo menos um dos operandos da divis√£o. Mas atente-se para
+        o uso de casting, informa√ß√µes podem ser perdidas nesse processo, como no caso de converter um n√∫mero float com
+        casa decimal para um n√∫mero int, a parte decimal do n√∫mero √© perdida!
 
         Veja o alguns exemplos:
     */
 
     int a = 10, b = 20;
 
-    printf("\nAdiÁ„o: %d\n", a + b);
-    printf("\nSubtraÁ„o: %d\n", a - b);
-    printf("\nMultipliÁ„o: %d\n", a * b);
-    printf("\nDivis„o (int): %d\n", a / b);
-    printf("\nDivis„o (fload): %f\n", (float)a / (float)b);
+    printf("\nAdi√ß√£o: %d\n", a + b);
+    printf("\nSubtra√ß√£o: %d\n", a - b);
+    printf("\nMultipli√ß√£o: %d\n", a * b);
+    printf("\nDivis√£o (int): %d\n", a / b);
+    printf("\nDivis√£o (fload): %f\n", (float)a / (float)b);
 
     float pi = 3.1415926;
     int pi_int = (int)pi;
@@ -502,16 +502,16 @@ void aula_25() {
 void aula_26() {
 
     /*
-        Operador resto da divis„o - %
+        Operador resto da divis√£o - %
     */
 
     int a = 10;
     int b = 20;
-    printf("Resto da divis„o inteira de %d por %d = %d\n",a, b, a % b);
+    printf("Resto da divis√£o inteira de %d por %d = %d\n",a, b, a % b);
 
     a = 20;
     b = 10;
-    printf("Resto da divis„o inteira de %d por %d = %d\n",a, b, a % b);
+    printf("Resto da divis√£o inteira de %d por %d = %d\n",a, b, a % b);
 
 }
 
@@ -520,13 +520,13 @@ void aula_27() {
     /*
         Operador de incremento ++
 
-        SinÙnimos:
+        Sin√¥nimos:
         contador++;
         contador += 1;
         contador = contador + 1;
     */
 
-    // operador de incremento prÈ-fixo (++variavel): incrementa na vari·vel antes de us·-la em uma operaÁ„o:
+    // operador de incremento pr√©-fixo (++variavel): incrementa na vari√°vel antes de us√°-la em uma opera√ß√£o:
     int contador_pre_fixo = 0;
     printf("Valor = %d\n", ++contador_pre_fixo);
     printf("Valor = %d\n", ++contador_pre_fixo);
@@ -534,7 +534,7 @@ void aula_27() {
     printf("Valor = %d\n", ++contador_pre_fixo);
     printf("Valor = %d\n", ++contador_pre_fixo);
 
-    // operador de incremento pÛs-fixo (variavel++): incrementa na vari·vel apÛs us·-la em uma operaÁ„o:
+    // operador de incremento p√≥s-fixo (variavel++): incrementa na vari√°vel ap√≥s us√°-la em uma opera√ß√£o:
     int contador_pos_fixo = 0;
     printf("\nValor = %d\n", contador_pos_fixo++);
     printf("Valor = %d\n", contador_pos_fixo++);
@@ -542,19 +542,19 @@ void aula_27() {
     printf("Valor = %d\n", contador_pos_fixo++);
     printf("Valor = %d\n", contador_pos_fixo++);
 
-    // Incremento prÈ-fixo na atribuiÁ„o:
+    // Incremento pr√©-fixo na atribui√ß√£o:
     int contador_01 = 0;
-    int resultado_01 = ++contador_01; // primeiro incrementa no contador, depois atribui o valor na vari·vel resultado;
-    printf("\nResultado do incremento prÈ-fixo na atribuicao: %d\n", resultado_01);
+    int resultado_01 = ++contador_01; // primeiro incrementa no contador, depois atribui o valor na vari√°vel resultado;
+    printf("\nResultado do incremento pr√©-fixo na atribuicao: %d\n", resultado_01);
 
-    // Incremento pÛs-fixo na atribuiÁ„o:
+    // Incremento p√≥s-fixo na atribui√ß√£o:
     int contador_02 = 0;
-    int resultado_02 = contador_02++; // primeiro atribui o valor ‡ vari·vel resultado, depois incrementa no contador;
-    printf("\nResultado do incremento pÛs-fixo na atribuicao: %d\n", resultado_02);
+    int resultado_02 = contador_02++; // primeiro atribui o valor √† vari√°vel resultado, depois incrementa no contador;
+    printf("\nResultado do incremento p√≥s-fixo na atribuicao: %d\n", resultado_02);
 
     /*
-        Podemos concluir que tanto o prÈ-fixo quanto o pÛs-fixo tem o mesmo objetivo, mas s„o diferentes quanto a ordem
-        das operaÁıes!
+        Podemos concluir que tanto o pr√©-fixo quanto o p√≥s-fixo tem o mesmo objetivo, mas s√£o diferentes quanto a ordem
+        das opera√ß√µes!
     */
 }
 
@@ -563,13 +563,13 @@ void aula_28() {
     /*
         Operador de decremento --
 
-        SinÙnimos:
+        Sin√¥nimos:
         contador--
         contador -= 1;
         contador = contador - 1;
     */
 
-    // operador de decremento prÈ-fixo (--vari·vel): decrementa na vari·vel antes de us·-la em uma operaÁ„o:
+    // operador de decremento pr√©-fixo (--vari√°vel): decrementa na vari√°vel antes de us√°-la em uma opera√ß√£o:
     int contador_pre_fixo = 10;
     printf("Valor = %d\n", --contador_pre_fixo);
     printf("Valor = %d\n", --contador_pre_fixo);
@@ -577,7 +577,7 @@ void aula_28() {
     printf("Valor = %d\n", --contador_pre_fixo);
     printf("Valor = %d\n", --contador_pre_fixo);
 
-    // operador de decremento pÛs-fixo (vari·vel--): decrementa na vari·vel apÛs us·-la em uma operaÁ„o:
+    // operador de decremento p√≥s-fixo (vari√°vel--): decrementa na vari√°vel ap√≥s us√°-la em uma opera√ß√£o:
     int contador_pos_fixo = 10;
     printf("\nValor = %d\n", contador_pos_fixo--);
     printf("Valor = %d\n", contador_pos_fixo--);
@@ -586,19 +586,19 @@ void aula_28() {
     printf("Valor = %d\n", contador_pos_fixo--);
 
 
-    // Decremento prÈ-fixo na atribuiÁ„o:
+    // Decremento pr√©-fixo na atribui√ß√£o:
     int contador_01 = 0;
-    int resultado_01 = --contador_01; // primeiro decrementa do contador, depois atribui o valor na vari·vel resultado;
-    printf("\nResultado do decremento prÈ-fixo na atribuicao: %d\n", resultado_01);
+    int resultado_01 = --contador_01; // primeiro decrementa do contador, depois atribui o valor na vari√°vel resultado;
+    printf("\nResultado do decremento pr√©-fixo na atribuicao: %d\n", resultado_01);
 
-    // Decremento pÛs-fixo na atribuiÁ„o:
+    // Decremento p√≥s-fixo na atribui√ß√£o:
     int contador_02 = 0;
-    int resultado_02 = contador_02--; // primeiro atribui o valor ‡ vari·vel resultado, depois decrementa do contador;
-    printf("\nResultado do decremento pÛs-fixo na atribuicao: %d\n", resultado_02);
+    int resultado_02 = contador_02--; // primeiro atribui o valor √† vari√°vel resultado, depois decrementa do contador;
+    printf("\nResultado do decremento p√≥s-fixo na atribuicao: %d\n", resultado_02);
 
     /*
-        Podemos concluir que tanto o prÈ-fixo quanto o pÛs-fixo tem o mesmo objetivo, mas s„o diferentes quanto a ordem
-        das operaÁıes!
+        Podemos concluir que tanto o pr√©-fixo quanto o p√≥s-fixo tem o mesmo objetivo, mas s√£o diferentes quanto a ordem
+        das opera√ß√µes!
     */
 }
 
@@ -607,15 +607,15 @@ void aula_29() {
     /*
         Operador unsigned
 
-        O operador unsigned È usado para representar apenas n˙meros positivos;
-        Intervalo do int = -2.147.483.648 atÈ 2.147.483.647
-        Intervalo do unsigned int = 0 atÈ 4.294.967.295
+        O operador unsigned √© usado para representar apenas n√∫meros positivos;
+        Intervalo do int = -2.147.483.648 at√© 2.147.483.647
+        Intervalo do unsigned int = 0 at√© 4.294.967.295
         Placeholder para imprimir unsigned int: %u
     */
 
 
     unsigned int x = 2147483647;
-    printf("\n\t%u\n\n", ++x); // => Com o operador de incremento prÈ-fixo, o valor imprimido sera: 2147483648
+    printf("\n\t%u\n\n", ++x); // => Com o operador de incremento pr√©-fixo, o valor imprimido sera: 2147483648
     x = 4294967295;
     printf("\n\t%u\n\n", x); 
 
@@ -638,17 +638,17 @@ void aula_29() {
 void aula_30() {
 
     /*
-        Tabela ASCII e acentuaÁ„o
+        Tabela ASCII e acentua√ß√£o
 
-        intervalo do byte (8 Bits) -> -128 atÈ 127
-        intervalo do usigned byte  ->    0 atÈ 255
+        intervalo do byte (8 Bits) -> -128 at√© 127
+        intervalo do usigned byte  ->    0 at√© 255
 
         Alguns caracteres da tabela ASCII:
 
         =============================================================
-        Snais de controle (n„o-imprimÌveis)
+        Snais de controle (n√£o-imprim√≠veis)
         
-        Bin         oct     Dec     Hex     Abrev       CÛdigo escape
+        Bin         oct     Dec     Hex     Abrev       C√≥digo escape
         0000 0000   000     00      00      NULL        \0
         0000 1010	012     10      0A      LF          \n
         0000 1001	011     09      09      HT          \t
@@ -656,10 +656,10 @@ void aula_30() {
         =============================================================
 
         =============================================
-        Sinais gr·ficos (imprimÌveis)
+        Sinais gr√°ficos (imprim√≠veis)
 
         Bin         oct     Dec     Hex      Sinal
-        0010 0000   040     32      20     (espaÁo)
+        0010 0000   040     32      20     (espa√ßo)
         0100 0001   101     65      41         A
         0100 0010	102     66      42         B
         0100 0011   103     67      43         C
@@ -684,27 +684,27 @@ void aula_30() {
     printf("%d %d %d %d %d %d %d %d %d %d %d %d %d\n", 'M', 'a', 't', 'h', 'e', 'u', 's', ' ', 'S', 'o', 'u', 's', 'a');
 
     /*
-        AcentuÁ„o
+        Acentu√ß√£o
 
-        Para resolver o problema de acentuaÁ„o do cmd (Windows), devemos adicionar o include <locale.h>
+        Para resolver o problema de acentua√ß√£o do cmd (Windows), devemos adicionar o include <locale.h>
         Ao adicionar essa biblioteca estamos pedindo ao compilador para usar a tabela ASCII estendida;
-        Mas tambÈm precisamos de adicionar na fuÁ„o main a funÁ„o setlocale() com o atributo "Portuguese";
-        O Encoding padr„o utilizado para escrever esse cÛdigo foi: ISO-8859-1 (Padr„o do CMD Windows 10);
+        Mas tamb√©m precisamos de adicionar na fu√ß√£o main a fun√ß√£o setlocale() com o atributo "Portuguese";
+        O Encoding padr√£o utilizado para escrever esse c√≥digo foi: ISO-8859-1 (Padr√£o do CMD Windows 10);
     */
 
-    printf("CoraÁ„o\n\n");
+    printf("Cora√ß√£o\n\n");
 
 }
 
 int main() {
     // Encoding utilizado - ISO 8859-1
-    // setlocale(LC_ALL, NULL);        -> configuraÁ„o padr„o da linguagem (tabela ASCII simplificada);
-    // setlocale(LC_ALL, "");          -> configuraÁ„o padr„o do sistema;
-    // setlocale(LC_ALL, "Portuguese") -> ForÁando para portuguÍs;
+    // setlocale(LC_ALL, NULL);        -> configura√ß√£o padr√£o da linguagem (tabela ASCII simplificada);
+    // setlocale(LC_ALL, "");          -> configura√ß√£o padr√£o do sistema;
+    // setlocale(LC_ALL, "Portuguese") -> For√ßando para portugu√™s;
 
     printf("%s\n\n", setlocale(LC_ALL, "Portuguese"));
 
-    // Adicione a funÁ„o da aula aqui:
+    // Adicione a fun√ß√£o da aula aqui:
     aula_30();
 
     return 0;
